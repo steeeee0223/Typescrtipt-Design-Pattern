@@ -1,9 +1,8 @@
-import { SwordBehavior, WeaponBehavior } from "./behaviors";
+import { AxeBehavior, SwordBehavior, WeaponBehavior } from "./behaviors";
 
 abstract class Character {
-    public weapon!: WeaponBehavior;
-
     constructor(
+        public weapon: WeaponBehavior
     ) { }
 
     abstract fight(): void
@@ -14,12 +13,19 @@ abstract class Character {
 }
 
 class King extends Character {
-    constructor() {
-        super()
-        this.weapon = new SwordBehavior()
+    constructor(weapon: WeaponBehavior) {
+        super(weapon)
+        this.weapon = weapon
     }
 
     fight(): void {
-        console.log('The king fights with a sword')
+        this.weapon.useWeapon()
     }
 }
+
+const s = new SwordBehavior()
+const k = new King(s)
+k.fight()  // using sword
+const w = new AxeBehavior()
+k.weapon = w
+k.fight()  // using axe
