@@ -11,3 +11,5 @@
     -   [x] Pizza Store 1 - Simple Factory
     -   [x] Pizza Store 2 - Factory
     -   [x] Pizza Store 3 - Abstract Factory
+-   `Ch05`: Singleton
+    -   [x] Chocolate Boiler

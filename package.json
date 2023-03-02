@@ -6,10 +6,12 @@
   "author": "steeeee0223 <mr.steven7@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start-02": "ts-node ch02-observer/weather-station/main.ts",
-    "start-03": "ts-node ch03-decorator/starbuzz/main.ts",
-    "start-04-01": "ts-node ch04-factory/pizza-store-1/main.ts",
-    "start-04-02": "ts-node ch04-factory/pizza-store-2/main.ts",
-    "start-04-03": "ts-node ch04-factory/pizza-store-3/main.ts"
+    "demo-02": "ts-node ch02-observer/weather-station/main.ts",
+    "demo-03": "ts-node ch03-decorator/starbuzz/main.ts",
+    "demo-04-01": "ts-node ch04-factory/pizza-store-1/main.ts",
+    "demo-04-02": "ts-node ch04-factory/pizza-store-2/main.ts",
+    "demo-04-03": "ts-node ch04-factory/pizza-store-3/main.ts",
+    "demo-05-01": "ts-node ch05-singleton/basic/main.ts",
+    "demo-05-02": "ts-node ch05-singleton/chocolate-boiler/main.ts"
   }
 }
