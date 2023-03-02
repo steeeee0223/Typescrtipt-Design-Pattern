@@ -1,0 +1,15 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "repository": "https://github.com/steeeee0223/Design-Pattern.git",
+  "author": "steeeee0223 <mr.steven7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-02": "ts-node ch02-observer/weather-station/main.ts",
+    "start-03": "ts-node ch03-decorator/starbuzz/main.ts",
+    "start-04-01": "ts-node ch04-factory/pizza-store-1/main.ts",
+    "start-04-02": "ts-node ch04-factory/pizza-store-2/main.ts",
+    "start-04-03": "ts-node ch04-factory/pizza-store-3/main.ts"
+  }
+}
