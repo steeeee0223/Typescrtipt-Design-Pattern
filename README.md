@@ -13,3 +13,6 @@
     -   [x] Pizza Store 3 - Abstract Factory
 -   `Ch05`: Singleton
     -   [x] Chocolate Boiler
+-   `Ch06`: Command
+    -   [x] Light (Simple Command)
+    -   [x] Remote Control
