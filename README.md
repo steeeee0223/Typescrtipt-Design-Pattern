@@ -2,7 +2,7 @@
 
 -   `Ch01`: Strategy
     -   [x] Ducks
-    -   [x] Exercise - Characters
+    -   [x] Characters - Exercise
 -   `Ch02`: Observer
     -   [x] Weather Station
 -   `Ch03`: Decorator
@@ -17,3 +17,5 @@
     -   [x] Light - Simple Command
     -   [x] Remote Control
     -   [x] Party Mode - Macro-Command
+-   `Ch07`: Adapter & Facade
+    -   [x] Ducks & Turkeys - Simple Adapter
