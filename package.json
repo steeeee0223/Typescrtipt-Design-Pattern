@@ -14,6 +14,7 @@
     "demo-05-01": "ts-node ch05-singleton/basic/main.ts",
     "demo-05-02": "ts-node ch05-singleton/chocolate-boiler/main.ts",
     "demo-06-01": "ts-node ch06-command/light/main.ts",
-    "demo-06-02": "ts-node ch06-command/remote-control/main.ts"
+    "demo-06-02": "ts-node ch06-command/remote-control/main.ts",
+    "demo-06-03": "ts-node ch06-command/party-mode/main.ts"
   }
 }

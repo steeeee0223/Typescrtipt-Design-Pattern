@@ -14,5 +14,6 @@
 -   `Ch05`: Singleton
     -   [x] Chocolate Boiler
 -   `Ch06`: Command
-    -   [x] Light (Simple Command)
+    -   [x] Light - Simple Command
     -   [x] Remote Control
+    -   [x] Party Mode - Macro-Command
