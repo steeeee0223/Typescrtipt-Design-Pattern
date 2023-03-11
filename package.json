@@ -15,6 +15,9 @@
     "demo-05-02": "ts-node ch05-singleton/chocolate-boiler/main.ts",
     "demo-06-01": "ts-node ch06-command/light/main.ts",
     "demo-06-02": "ts-node ch06-command/remote-control/main.ts",
-    "demo-06-03": "ts-node ch06-command/party-mode/main.ts"
+    "demo-06-03": "ts-node ch06-command/party-mode/main.ts",
+    "demo-07-01": "ts-node ch07-adapter-facade/duck-turkey/main.ts",
+    "demo-07-02": "ts-node ch07-adapter-facade/iter-enum/main.ts",
+    "demo-07-03": "ts-node ch07-adapter-facade/home-theater/main.ts"
   }
 }

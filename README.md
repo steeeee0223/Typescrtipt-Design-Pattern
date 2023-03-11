@@ -19,3 +19,5 @@
     -   [x] Party Mode - Macro-Command
 -   `Ch07`: Adapter & Facade
     -   [x] Ducks & Turkeys - Simple Adapter
+    -   [x] Iterator & Enumeration - Real world example
+    -   [x] Home Theater - Facade
