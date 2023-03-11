@@ -21,3 +21,5 @@
     -   [x] Ducks & Turkeys - Simple Adapter
     -   [x] Iterator & Enumeration - Real world example
     -   [x] Home Theater - Facade
+-   `Ch08`: Template Method
+    -   [x] Beverage Recipes
