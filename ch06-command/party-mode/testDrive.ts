@@ -13,7 +13,7 @@ import {
 import { RemoteControl } from "./controller";
 import { Hottub, Light, Stereo, TV } from "./devices";
 
-export class RemoteLoader {
+export class RemoteTestDrive {
     public static remoteControl: RemoteControl;
 
     public static setup() {
@@ -43,12 +43,12 @@ export class RemoteLoader {
             new MacroCommand(partyOff)
         );
 
-        RemoteLoader.remoteControl = remoteControl;
+        RemoteTestDrive.remoteControl = remoteControl;
     }
 
     public static main(_args: string[] = []): void {
-        RemoteLoader.setup();
-        const remoteControl = RemoteLoader.remoteControl;
+        RemoteTestDrive.setup();
+        const remoteControl = RemoteTestDrive.remoteControl;
         console.log(remoteControl.toString());
 
         console.log("--- Pushing Macro On ---");

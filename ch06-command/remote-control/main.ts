@@ -1,3 +1,3 @@
-import { RemoteLoader } from "./loader";
+import { RemoteTestDrive } from "./testDrive";
 
-RemoteLoader.main();
+RemoteTestDrive.main();

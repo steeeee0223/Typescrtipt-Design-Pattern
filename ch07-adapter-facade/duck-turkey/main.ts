@@ -1,3 +1,3 @@
-import { DuckTestDrive } from "./duckTestDrive";
+import { DuckTestDrive } from "./testDrive";
 
 DuckTestDrive.main();

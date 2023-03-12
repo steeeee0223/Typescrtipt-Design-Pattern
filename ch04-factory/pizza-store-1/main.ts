@@ -1,6 +1,3 @@
-import { SimplePizzaFactory } from "./pizzaFactory";
-import { PizzaStore } from "./pizzaStore";
+import { PizzaStoreTestDrive } from "./testDrive";
 
-const factory = new SimplePizzaFactory();
-const store = new PizzaStore(factory);
-store.orderPizza("cheese");
+PizzaStoreTestDrive.main();

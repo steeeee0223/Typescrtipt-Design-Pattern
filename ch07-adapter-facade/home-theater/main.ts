@@ -1,3 +1,3 @@
-import { HomeTheaterTestDriver } from "./testDriver";
+import { HomeTheaterTestDrive } from "./testDrive";
 
-HomeTheaterTestDriver.main();
+HomeTheaterTestDrive.main();

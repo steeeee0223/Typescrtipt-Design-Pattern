@@ -11,7 +11,7 @@ import {
 import { RemoteControl } from "./controller";
 import { CeilingFan, GarageDoor, Light, Stereo } from "./devices";
 
-export class RemoteLoader {
+export class RemoteTestDrive {
     public static remoteControl: RemoteControl;
 
     public static setup() {
@@ -49,12 +49,12 @@ export class RemoteLoader {
             new StereoOffCommand(stereo)
         );
 
-        RemoteLoader.remoteControl = remoteControl;
+        RemoteTestDrive.remoteControl = remoteControl;
     }
 
     public static main(_args: string[] = []): void {
-        RemoteLoader.setup();
-        const remoteControl = RemoteLoader.remoteControl;
+        RemoteTestDrive.setup();
+        const remoteControl = RemoteTestDrive.remoteControl;
         console.log(remoteControl.toString());
 
         for (let i = 0; i < 7; i++) {

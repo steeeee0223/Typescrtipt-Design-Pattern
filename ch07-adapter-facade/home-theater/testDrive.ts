@@ -9,7 +9,7 @@ import {
 } from "./components";
 import { HomeTheaterFacade } from "./facade";
 
-export class HomeTheaterTestDriver {
+export class HomeTheaterTestDrive {
     public static main(): void {
         const amp = new Amplifier();
         const tuner = new Tuner(amp);
