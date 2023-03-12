@@ -23,3 +23,4 @@
     -   [x] Home Theater - Facade
 -   `Ch08`: Template Method
     -   [x] Beverage Recipes
+    -   [x] Ducks Sorter - Real world example
