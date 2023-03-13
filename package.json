@@ -19,6 +19,8 @@
     "demo-07-01": "ts-node ch07-adapter-facade/duck-turkey/main.ts",
     "demo-07-02": "ts-node ch07-adapter-facade/iter-enum/main.ts",
     "demo-07-03": "ts-node ch07-adapter-facade/home-theater/main.ts",
-    "demo-08-01": "ts-node ch08-template/beverages/main.ts"
+    "demo-08-01": "ts-node ch08-template/beverages/main.ts",
+    "demo-08-02": "ts-node ch08-template/sorting/main.ts",
+    "demo-09-01": "ts-node ch08-iterator-composite/menu-1/main.ts"
   }
 }
