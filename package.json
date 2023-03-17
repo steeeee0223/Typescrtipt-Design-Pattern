@@ -22,6 +22,8 @@
     "demo-08-01": "ts-node ch08-template/beverages/main.ts",
     "demo-08-02": "ts-node ch08-template/sorting/main.ts",
     "demo-09-01": "ts-node ch09-iterator-composite/menu-1/main.ts",
-    "demo-09-02": "ts-node ch09-iterator-composite/menu-2/main.ts"
+    "demo-09-02": "ts-node ch09-iterator-composite/menu-2/main.ts",
+    "demo-09-03": "ts-node ch09-iterator-composite/menu-3/main.ts",
+    "demo-09-04": "ts-node ch09-iterator-composite/menu-4/main.ts"
   }
 }

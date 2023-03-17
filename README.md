@@ -1,7 +1,5 @@
 # Design Pattern in TypeScript
 
-🦆 ☕ 💼 🍕 🍫 🎮 🔌 🎥 🍹 🦆 🔄 🍽️
-
 -   `Ch01`: Strategy
     -   [x] 🦆 Ducks
     -   [x] 👾 Characters - Exercise
@@ -28,4 +26,6 @@
     -   [x] 🔄 Ducks Sorter - Real world example
 -   `Ch09`: Iterator & Composite
     -   [x] 🍽️ Menu 1 - Iterator
-    -   [x] 🍽️ Menu 2 - Iterator
+    -   [x] 🍽️ Menu 2 - Iterator (Built-In)
+    -   [x] 🍽️ Menu 3 - Composite
+    -   [x] 🍽️ Menu 4 - Composite & Iterator (Built-In)

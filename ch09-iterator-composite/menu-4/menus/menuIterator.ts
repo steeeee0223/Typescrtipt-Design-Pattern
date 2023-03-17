@@ -1,20 +1,22 @@
-import { MenuItem } from "./menuItem";
+import { MenuComponent } from "./menuComponent";
 
-export class DinerMenuIterator implements IterableIterator<MenuItem> {
-    public items!: MenuItem[];
+export class MenuIterator implements IterableIterator<MenuComponent> {
+    public items!: MenuComponent[];
     private position: number = 0;
 
-    constructor(items: MenuItem[]) {
+    constructor(items: MenuComponent[]) {
         this.items = items;
     }
 
-    *[Symbol.iterator](): IterableIterator<MenuItem> {
-        while (this.hasNext()) {
-            yield this.next().value;
+    *[Symbol.iterator](): IterableIterator<MenuComponent> {
+        for (let item of this.items) {
+            if (item) {
+                yield item;
+            }
         }
     }
 
-    public next(): IteratorResult<MenuItem, any> {
+    public next(): IteratorResult<MenuComponent, any> {
         if (this.hasNext()) {
             return {
                 done: false,
