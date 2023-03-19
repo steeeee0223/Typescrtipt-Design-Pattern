@@ -24,6 +24,15 @@
     "demo-09-01": "ts-node ch09-iterator-composite/menu-1/main.ts",
     "demo-09-02": "ts-node ch09-iterator-composite/menu-2/main.ts",
     "demo-09-03": "ts-node ch09-iterator-composite/menu-3/main.ts",
-    "demo-09-04": "ts-node ch09-iterator-composite/menu-4/main.ts"
+    "demo-09-04": "ts-node ch09-iterator-composite/menu-4/main.ts",
+    "demo-10-01": "ts-node ch10-state/gumball-machine-1/main.ts",
+    "demo-10-02": "ts-node ch10-state/gumball-machine-2/main.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "ts-node": "^10.9.1"
   }
 }

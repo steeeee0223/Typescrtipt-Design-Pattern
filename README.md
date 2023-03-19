@@ -29,3 +29,6 @@
     -   [x] 🍽️ Menu 2 - Iterator (Built-In)
     -   [x] 🍽️ Menu 3 - Composite
     -   [x] 🍽️ Menu 4 - Composite & Iterator (Built-In)
+-   `Ch10`: State
+    -   [x] 🎰 Gumball Machine 1
+    -   [x] 🎰 Gumball Machine 2
