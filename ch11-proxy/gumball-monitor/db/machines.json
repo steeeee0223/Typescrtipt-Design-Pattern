@@ -1,0 +1,14 @@
+[
+    {
+        "location": "santafe",
+        "count": 15
+    },
+    {
+        "location": "boulder",
+        "count": 10
+    },
+    {
+        "location": "austin",
+        "count": 30
+    }
+]

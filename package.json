@@ -26,13 +26,16 @@
     "demo-09-03": "ts-node ch09-iterator-composite/menu-3/main.ts",
     "demo-09-04": "ts-node ch09-iterator-composite/menu-4/main.ts",
     "demo-10-01": "ts-node ch10-state/gumball-machine-1/main.ts",
-    "demo-10-02": "ts-node ch10-state/gumball-machine-2/main.ts"
+    "demo-10-02": "ts-node ch10-state/gumball-machine-2/main.ts",
+    "demo-11-01": "ts-node ch11-proxy/gumball-monitor/main.ts"
   },
   "dependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.3",
+    "@types/uuid": "^9.0.1",
     "ts-node": "^10.9.1"
   }
 }
