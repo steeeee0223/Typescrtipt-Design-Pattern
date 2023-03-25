@@ -9,10 +9,8 @@ export class MenuIterator implements IterableIterator<MenuComponent> {
     }
 
     *[Symbol.iterator](): IterableIterator<MenuComponent> {
-        for (let item of this.items) {
-            if (item) {
-                yield item;
-            }
+        while (this.hasNext()) {
+            yield this.next().value;
         }
     }
 

@@ -32,3 +32,8 @@
 -   `Ch10`: State
     -   [x] 🎰 Gumball Machine 1
     -   [x] 🎰 Gumball Machine 2
+-   `Ch11`: Proxy
+    -   [x] 🖥️ Gumball Monitor
+    -   [ ] 🎑 Album Cover
+    -   [ ] 👨‍💻 Person
+-   `Ch12`: Compound
