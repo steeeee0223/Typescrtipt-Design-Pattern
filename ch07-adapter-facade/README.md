@@ -4,9 +4,10 @@
 
 -   A simple adapter pattern
 
-### Iterator & Enumberation
+### Iterator & Enumeration
 
 -   An adapter pattern used in real world case
+-   Using Typescript built-in interfaces: `IterableIterator` and `Enumeration`
 
 ### Home Theater
 
