@@ -1,4 +1,12 @@
-# Design Pattern in TypeScript
+# Design Patterns in TypeScript
+
+### Demo Apps
+
+-   Run command `yarn dev demo` to demo in `TypeScript`
+-   Run command `yarn build && yarn start demo` to demo in `JavaScript`
+-   You may also set up your own bin
+
+### Patterns List
 
 -   `Ch01`: Strategy
     -   [x] 🦆 Ducks
@@ -37,3 +45,5 @@
     -   [ ] 🎑 Album Cover
     -   [ ] 👨‍💻 Person
 -   `Ch12`: Compound
+    -   [x] 🦆 Duck Simulator
+    -   [ ] 🔊 DJ View - MVC
